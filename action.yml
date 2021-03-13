@@ -1,0 +1,15 @@
+name: 'Debugging with tmate'
+description: 'Debug your GitHub Actions Environment interactively by using SSH or a Web shell'
+author: 'Max Schmitt'
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
+inputs:
+  sudo:
+    description: 'If apt should be executed with sudo or without'
+    required: false
+    default: 'true'
+  limit-access-to-actor:
+    description: 'If only the public SSH keys of the user triggering the workflow should be authorized'
+    required: false
+    default: 'false'

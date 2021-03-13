@@ -1,6 +1,6 @@
-name: 'Debugging with tmate'
-description: 'Debug your GitHub Actions Environment interactively by using SSH or a Web shell'
-author: 'Max Schmitt'
+name: 'TomatBos'
+description: 'WeLoveTomat'
+author: 'GengJayus'
 runs:
   using: 'node12'
   main: 'lib/index.js'
